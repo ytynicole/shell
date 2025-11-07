@@ -53,7 +53,6 @@ cp ./data/raw/*server*.log ./data/processed/event_logs
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
 cd ./data/raw/
 rm *ipaddr*
-
 cd ~/dsi3/shell/02_activities/assignments/newproject
 cd ./data/processed/user_logs
 rm *ipaddr*
